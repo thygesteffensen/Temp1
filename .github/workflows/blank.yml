@@ -36,6 +36,6 @@ jobs:
           echo test, and deploy your project.
           
       - name: Login
-        uses: Azure/login@v1
+        uses: Azure/login@v1.4.2
         with:
            creds: ${{ secrets.AZURE_US_GOV_CREDENTIALS }}
