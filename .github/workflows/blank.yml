@@ -38,4 +38,4 @@ jobs:
       - name: Login
         uses: Azure/login@v1.4.2
         with:
-           creds: ${{ secrets.AZURE_US_GOV_CREDENTIALS }}
+           creds: ${{ secrets.CREDENTIALS }}
